@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: "The client and server versions are not compatible. The client protocol version is older than that required by the server."'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # The Client and Server Versions are Not Compatible

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: Authentication method "0" is enabled but is not an allowed Authentication method for this service.'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # An Unsupported Authentication Method was Found

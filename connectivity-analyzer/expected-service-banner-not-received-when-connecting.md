@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Microsoft Remote Connectivity Analyzer message: Expected service banner was not received when connecting'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # Expected Service Banner was not Received when Connecting

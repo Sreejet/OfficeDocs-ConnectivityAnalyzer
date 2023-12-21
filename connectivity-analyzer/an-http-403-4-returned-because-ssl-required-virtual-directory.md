@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: An HTTP 403.4 was returned because SSL was required on the virtual directory.'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # An HTTP 403.4 was Returned Because SSL was Required on the Virtual Directory

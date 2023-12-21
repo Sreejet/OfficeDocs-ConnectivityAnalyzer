@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: Anonymous authentication enabled for virtual directory.'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # Anonymous Authentication Enabled for Virtual Directory

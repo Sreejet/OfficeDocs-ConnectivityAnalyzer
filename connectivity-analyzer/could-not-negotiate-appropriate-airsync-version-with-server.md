@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'If the MS-ASProtocolVersions header doesn't contain 2.5 or 12.0, the Microsoft Remote Connectivity Analyzer tool generates the following error: "Could not negotiate an appropriate Airsync version with server."'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # Could Not Negotiate an Appropriate Airsync Version with Server

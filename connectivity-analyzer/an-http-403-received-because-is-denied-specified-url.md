@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: The server denied the specified Uniform Resource Locator (URL)'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # An HTTP 403 was Received Because ISA Denied the Specified URL

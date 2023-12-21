@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'EWS endpoint directed to on-premises legacy server'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # EWS Endpoint Directed to On-Premises Legacy Server

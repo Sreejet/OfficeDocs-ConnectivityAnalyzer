@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: ADFS token not accepted by Authentication Platform
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # ADFS token not accepted by Authentication Platform (for later version of RCA)

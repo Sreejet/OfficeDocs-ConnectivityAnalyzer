@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: All Required Authentication Methods could not be found'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # All Required Authentication Methods Could Not be Found

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'If the system time of the on-premises server that is communicating with the Microsoft Federation Gateway is skewed by more than five minutes, the server experiences an "Access Denied" error when it requests a delegation token.'
-ms.date: 20/12/2023
+ms.date: 12/20/2023
 ---
 
 # Error with System Time
