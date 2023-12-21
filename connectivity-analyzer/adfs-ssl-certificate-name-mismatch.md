@@ -7,8 +7,8 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Microsoft Remote Connectivity Analyzer tool returns the following warning if the FDQN does not match the host address or URL that the client uses to make a connection with the server: SSL Certificate Name Mismatch'
-ms.date: 05/08/2020
+description: 'The Microsoft Remote Connectivity Analyzer tool returns the following warning if the FDQN doesn't match the host address or URL that the client uses to make a connection with the server: SSL Certificate Name Mismatch'
+ms.date: 20/12/2023
 ---
 
 # ADFS SSL Certificate Name Mismatch
@@ -16,13 +16,13 @@ ms.date: 05/08/2020
 
 _**Topic Last Modified:** 2011-06-06_
 
-The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud to perform a realm discovery. When that process is finished, the Authentication Platform passes to the requesting client the ADFS endpoint name that the client requires for authentication. The endpoint will be a Secure Sockets Layer (SSL) connection, which will have a certificate in place. The tool evaluates the fully qualified domain name (FQDN) that was assigned to the certificate (for example, STS.Contoso.com).
+The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud to perform a realm discovery. When that process is finished, the Authentication Platform passes to the requesting client the ADFS endpoint name that the client requires for authentication. The endpoint is a Secure Sockets Layer (SSL) connection, which has a certificate in place. The tool evaluates the fully qualified domain name (FQDN) that was assigned to the certificate (for example, STS.Contoso.com).
 
-The Microsoft Remote Connectivity Analyzer tool returns the following warning if the FDQN does not match the host address or URL that the client uses to make a connection with the server.
+The Microsoft Remote Connectivity Analyzer tool returns the following warning if the FDQN doesn't match the host address or URL that the client uses to make a connection with the server.
 
 SSL Certificate Name Mismatch
 
-The name mismatch warning means that users might not be able to authenticate correctly to their Office 365 resources. If this issue occurs, the passive (Internet Explorer) access to the Office 365 services display a certificate warning when the user accesses the services. Only after the certificate warning is accepted can the Passive client connect. The Outlook client is not presented with this certificate security warning, and the client fails to connect.
+The name mismatch warning means that users might not be able to authenticate correctly to their Office 365 resources. If this issue occurs, the passive (Internet Explorer) access to the Office 365 services display a certificate warning when the user accesses the services. Only after the certificate warning is accepted can the Passive client connect. The Outlook client isn't presented with this certificate security warning, and the client fails to connect.
 
 ## More Information
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: All Required Authentication Methods could not be found'
-ms.date: 05/08/2020
+ms.date: 20/12/2023
 ---
 
 # All Required Authentication Methods Could Not be Found
@@ -16,15 +16,15 @@ ms.date: 05/08/2020
 
 _**Topic Last Modified:** 2009-11-18_
 
-The Microsoft Remote Connectivity Analyzer sends an HTTP request to test the authentication methods of the specified service. If a 401 Unauthorized Response is received, then the Microsoft Remote Connectivity Analyzer tool expects certain WWW-Authenticate headers in the response. Certain services such as Exchange ActiveSync and Outlook Anywhere (RPC over HTTP) do not negotiate an authentication method with the remote server. These clients have a pre-defined authentication method that is sent with each request. If this authentication method is not enabled on the remote server, then the Microsoft Remote Connectivity Analyzer generates the following error:
+The Microsoft Remote Connectivity Analyzer sends an HTTP request to test the authentication methods of the specified service. If a 401 Unauthorized Response is received, then the Microsoft Remote Connectivity Analyzer tool expects certain WWW-Authenticate headers in the response. Certain services such as Exchange ActiveSync and Outlook Anywhere (RPC over HTTP) don't negotiate an authentication method with the remote server. These clients have a pre-defined authentication method that is sent with each request. If this authentication method isn't enabled on the remote server, then the Microsoft Remote Connectivity Analyzer generates the following error:
 
 "All Required Authentication Methods could not be found."
 
-If the pre-defined authentication method isn't enabled on the remote server, then users may experience the following issues:
+If the pre-defined authentication method isn't enabled on the remote server, then users can experience the following issues:
 
-  - Mobile device users connecting using Exchange ActiveSync will be unable to successfully connect.
+  - Mobile device users connecting using Exchange ActiveSync are unable to successfully connect.
 
-  - Microsoft Office Outlook users may be unable to connect using Outlook Anywhere.
+  - Microsoft Office Outlook users are unable to connect using Outlook Anywhere.
 
 ## For More Information
 
@@ -34,9 +34,9 @@ If the pre-defined authentication method isn't enabled on the remote server, the
 
 2.  For Outlook Anywhere users, verify the following server and client settings:
     
-    1.  Confirm that Basic and/or Integrated Windows Authentication is enabled on the /Rpc virtual directory in IIS. Please note that these authentication methods should be managed through the Set-OutlookAnywhere cmdlet and not directly in IIS.
+    1.  Confirm that Basic and/or Integrated Windows Authentication is enabled on the /Rpc virtual directory in IIS. These authentication methods should be managed through the Set-OutlookAnywhere cmdlet and not directly in IIS.
 
-3.  Confirm that Basic or NT LAN Manager (NTLM) authentication is selected under Exchange Proxy Settings in Microsoft Outlook. This setting should match the authentication method you have enabled in IIS. If this setting is being obtained via Autodiscover, then ensure that your ClientAuthenticationMethod or DefaultAuthenticationMethod is specified properly on your Outlook Anywhere Configuration.
+3.  Confirm that Basic or NT LAN Manager (NTLM) authentication is selected under Exchange Proxy Settings in Microsoft Outlook. This setting should match the authentication method you enabled in IIS. If this setting is being obtained via Autodiscover, then ensure that your ClientAuthenticationMethod or DefaultAuthenticationMethod is specified properly on your Outlook Anywhere Configuration.
 
 For more information, review the following documentation and confirm that the virtual directories on your Exchange server have the proper authentication methods enabled for each application or service:
 
@@ -48,4 +48,4 @@ For more information, review the following documentation and confirm that the vi
 
   - For information about configuring authentication for Web applications on Exchange Server 2003 and Exchange 2000 Server, see [Front-End and Back-End Server Topology Guide for Microsoft Exchange Server 2003 and Exchange 2000 Server](https://go.microsoft.com/fwlink/?linkid=161404).
 
-The Microsoft Remote Connectivity Analyzer has limited documentation at this time. In an effort to improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Please use the Community Content section below to post additional reasons why you failed at this point. If you need technical assistance, please create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).
+The Microsoft Remote Connectivity Analyzer has limited documentation currently. To improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Use the Community Content section to post more reasons why you failed at this point. If you need technical assistance, create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).

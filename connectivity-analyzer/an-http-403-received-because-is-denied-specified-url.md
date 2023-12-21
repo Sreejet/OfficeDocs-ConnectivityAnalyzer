@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: The server denied the specified Uniform Resource Locator (URL)'
-ms.date: 05/08/2020
+ms.date: 20/12/2023
 ---
 
 # An HTTP 403 was Received Because ISA Denied the Specified URL
@@ -16,11 +16,11 @@ ms.date: 05/08/2020
 
 _**Topic Last Modified:** 2009-11-17_
 
-The Microsoft Remote Connectivity Analyzer sends an HTTP request and validates the response it receives to verify connectivity. If the entry point to the Exchange Server is an ISA server, and the publishing rules on the ISA server are not configured correctly, then ISA may send an HTTP 403 Forbidden response. If ISA sends an HTTP 403 response, then the Microsoft Remote Exchange Connectivity tool displays the following message:
+The Microsoft Remote Connectivity Analyzer sends an HTTP request and validates the response it receives to verify connectivity. If the entry point to the Exchange Server is an ISA server, and the publishing rules on the ISA server aren't configured correctly, then ISA can send an HTTP 403 Forbidden response. If ISA sends an HTTP 403 response, then the Microsoft Remote Exchange Connectivity tool displays the following message:
 
 "The server denied the specified Uniform Resource Locator (URL)."
 
-End users will not be able to successfully connect to Exchange applications and services.
+End users won't be able to successfully connect to Exchange applications and services.
 
 ## For More Information
 
@@ -58,4 +58,4 @@ SingleIP: \<internal IP of Exchange server\> (change to external IP on ISA)
 
 Path: /public\*
 
-The Microsoft Remote Connectivity Analyzer has limited documentation at this time. In an effort to improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Please use the Community Content section below to post additional reasons why you failed at this point. If you need technical assistance, please create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).
+The Microsoft Remote Connectivity Analyzer has limited documentation currently. To improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Use the Community Content section to post additional reasons why you failed at this point. If you need technical assistance, create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).

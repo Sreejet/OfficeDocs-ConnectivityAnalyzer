@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'The Remote Connectivity Analyzer displays the following warning message if the domain was federated but the user account was not enabled in the Office 365 environment: "The domain is a federated domain but the user apollo@contoso.com is not known by Office 365"'
-ms.date: 05/08/2020
+ms.date: 20/12/2023
 ---
 
 # The domain is a federated domain but the user \<User\>\@contoso.com is not known by Office 365
@@ -18,11 +18,11 @@ _**Topic Last Modified:** 2011-10-25_
 
 The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud to perform a realm discovery. Occasionally, the realm discovery process runs but still displays a warning message.
 
-Realm discovery runs to generate the identity provider for the user. After the domain name passes the realm discovery check, an additional process runs to determine whether the user has an account in the Microsoft Office 365 environment. This additional check will not cause the test to fail, but it can cause an error that would generate a warning message.
+Realm discovery runs to generate the identity provider for the user. After the domain name passes the realm discovery check, another process runs to determine whether the user has an account in the Microsoft Office 365 environment. This additional check doesn't cause the test to fail, but it can generate an error that triggers a warning message.
 
-The Remote Connectivity Analyzer displays the following warning message if the domain was federated but the user account was not enabled in the Office 365 environment:
+The Remote Connectivity Analyzer displays the following warning message if the domain was federated but the user account wasn't enabled in the Office 365 environment:
 
-The domain is a federated domain but the user apollo@contoso.com is not known by Office 365
+The domain is a federated domain but the user apollo@contoso.com isn't known by Office 365
 
 You can safely ignore this warning message.
 
@@ -32,4 +32,4 @@ For more information about how to resolve this issue, see Microsoft Knowledge Ba
 
 For more information planning for identity federation, see [Prepare for single sign-on](https://onlinehelp.microsoft.com/office365-enterprises/ff652540.aspx).
 
-For help to upgrade your current Exchange 2010 environment, see [Exchange Server Deployment Assistant](https://technet.microsoft.com/exdeploy2010/default.aspx).
+For help with upgrading your current Exchange 2010 environment, see [Exchange Server Deployment Assistant](https://technet.microsoft.com/exdeploy2010/default.aspx).
