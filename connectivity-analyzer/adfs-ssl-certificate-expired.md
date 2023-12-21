@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Remote Connectivity Analyzer displays a certificate trust warning when the certificate that is used for SSL has expired. This indicates that the certificate isn't valid.'
+description: "The Remote Connectivity Analyzer displays a certificate trust warning when the certificate that is used for SSL has expired. This indicates that the certificate isn't valid."
 ms.date: 12/20/2023
 ---
 
