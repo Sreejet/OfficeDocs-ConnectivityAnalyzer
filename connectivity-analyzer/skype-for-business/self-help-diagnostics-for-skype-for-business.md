@@ -14,7 +14,7 @@ ms.date: 09/18/2023
 # Self-help diagnostics for Skype for Business Server administrators and end users
 
 ## Summary
-Microsoft has developed Skype for Business specific diagnostic scenarios that cover top support articles and the most common tasks for which administrators or end users request help. It's important to note that while these diagnostics can't make changes to your tenant, they do provide insight into known issues and the instructions that allow you to fix the behavior quickly.
+Microsoft has developed Skype for Business specific diagnostic scenarios that cover top support topics and the most common tasks for which administrators or end users request help. It's important to note that while these diagnostics can't make changes to your tenant, they do provide insight into known issues and the instructions that allow you to fix the behavior quickly.
 
 > [!NOTE]
 > Currently the Microsoft Remote Connectivity Analyzer tool does not support Microsoft 365 Government environments (GCC or GCC High).

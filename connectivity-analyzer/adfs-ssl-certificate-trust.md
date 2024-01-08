@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Remote Connectivity Analyzer displays a warning when the certificate that is used for SSL can't be trusted up to the root.'
+description: "The Remote Connectivity Analyzer displays a warning when the certificate that is used for SSL can't be trusted up to the root."
 ms.date: 12/20/2023
 ---
 

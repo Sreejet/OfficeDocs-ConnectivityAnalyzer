@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Microsoft Remote Connectivity Analyzer tool returns the following warning if the FDQN doesn't match the host address or URL that the client uses to make a connection with the server: SSL Certificate Name Mismatch'
+description: "The Microsoft Remote Connectivity Analyzer tool returns the following warning if the FDQN doesn't match the host address or URL that the client uses to make a connection with the server: SSL Certificate Name Mismatch"
 ms.date: 12/20/2023
 ---
 
