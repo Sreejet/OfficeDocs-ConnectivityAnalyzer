@@ -7,8 +7,8 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud by using Identity Federation to simulate the authentication to the Office 365 environment. Occasionally, the ADFS server is not reachable, and you receive an error message.'
-ms.date: 05/08/2020
+description: "The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud by using Identity Federation to simulate the authentication to the Office 365 environment. Occasionally, the ADFS server isn't reachable, and you receive an error message."
+ms.date: 12/20/2023
 ---
 
 # Active Directory Federated Services (AD FS) server is down or unreachable
@@ -16,14 +16,14 @@ ms.date: 05/08/2020
 
 _**Topic Last Modified:** 2011-06-06_
 
-The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud by using Identity Federation to simulate the authentication to the Office 365 environment. Occasionally, the ADFS server is not reachable at all. For instance, the ADFS server is not reachable if the ADFS services crash or fail to start. If this issue occurs, you may receive a message that resembles the following message:
+The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud by using Identity Federation to simulate the authentication to the Office 365 environment. Occasionally, the ADFS server isn't reachable at all. For instance, the ADFS server isn't reachable if the ADFS services crash or fail to start. If this issue occurs, you can receive a message that resembles the following message:
 
 Retrieving ADFS metadata information from Metadata Exchange Url https://sts.Contoso.com/adfs/services/trust/mex
-Failed to retreive ADFS metadata
+Failed to retrieve ADFS metadata
 Additional Details
 A Web exception occurred because an HTTP 503 - ServiceUnavailable response was received from Unknown
 
-If you see this error returned, make sure that you examine the ADFS services on the ADFS server and on the ADFS proxy. A failure of the services to start on either server can cause the same error message to be generated. In this case, you must investigate the cause of the service failure by examining the event logs. If the services cannot be started, and there is no indication in the logs about the cause of the failure, you might have to make a support call.
+If you see this error returned, make sure that you examine the ADFS services on the ADFS server and on the ADFS proxy. A failure of the services to start on either server can cause the same error message to be generated. In this case, you must investigate the cause of the service failure by examining the event logs. If the services can't be started, and there's no indication in the logs about the cause of the failure, you might have to make a support call.
 
 ## More Information
 
