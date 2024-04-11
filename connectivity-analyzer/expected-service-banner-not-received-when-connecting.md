@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'Microsoft Remote Connectivity Analyzer message: Expected service banner was not received when connecting'.
+description: 'Microsoft Remote Connectivity Analyzer message: Expected service banner was not received when connecting'
 ms.date: 12/20/2023
 ---
 
@@ -16,7 +16,7 @@ ms.date: 12/20/2023
 
 _**Topic Last Modified:** 2009-08-18_
 
-The Microsoft Remote Connectivity Analyzer attempts to connect to the Exchange SMTP server. Upon a successful connection, an SMTP Banner is returned from the SMTP server. If this banner is never returned due to a timeout or other issue, then the following message is displayed.
+The Microsoft Remote Connectivity Analyzer attempts to connect to the Exchange Simple Mail Transfer Protocol (SMTP) server. Upon a successful connection, an SMTP Banner is returned from the SMTP server. If this banner is never returned due to a timeout or other issue, then the following message is displayed.
 
 "Expected Service Banner was not received when connecting."
 
