@@ -1,5 +1,5 @@
 ---
-title: The domain is a federated domain but the user <User>@contoso.com is not known by Office 365
+title: The domain is a federated domain but the user <User>@contoso.com isn't known by Office 365
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
@@ -18,7 +18,7 @@ _**Topic Last Modified:** 2011-10-25_
 
 The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud to perform a realm discovery. Occasionally, the realm discovery process runs but still displays a warning message.
 
-Realm discovery runs to generate the identity provider for the user. After the domain name passes the realm discovery check, another process runs to determine whether the user has an account in the Microsoft Office 365 environment. This additional check doesn't cause the test to fail, but it can generate an error that triggers a warning message.
+Realm discovery runs to generate the identity provider for the user. After the domain name passes the realm discovery check, another process runs to determine whether the user has an account in the Microsoft Office 365 environment. This extra check doesn't cause the test to fail, but it can generate an error that triggers a warning message.
 
 The Remote Connectivity Analyzer displays the following warning message if the domain was federated but the user account wasn't enabled in the Office 365 environment:
 
@@ -28,7 +28,7 @@ You can safely ignore this warning message.
 
 ## More Information
 
-For more information about how to resolve this issue, see Microsoft Knowledge Base article 2523192, [The user principal names (UPN), email addresses, or proxy addresses of users contain an Office 365 domain after synchronization](https://support.microsoft.com/kb/2523192).
+For more information about how to resolve this issue, see Microsoft Knowledge Base article 2523192, [The user principal names (UPN), email addresses, or proxy addresses of users contain an Office 365 domain after synchronization](https://support.microsoft.com/topic/5474cea1-1f96-4499-253b-7c6a3a260b4f).
 
 For more information planning for identity federation, see [Prepare for single sign-on](https://onlinehelp.microsoft.com/office365-enterprises/ff652540.aspx).
 

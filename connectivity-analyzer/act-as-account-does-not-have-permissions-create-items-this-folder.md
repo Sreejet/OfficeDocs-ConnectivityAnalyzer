@@ -18,7 +18,7 @@ _**Topic Last Modified:** 2012-05-23_
 
 The Microsoft Remote Connectivity Analyzer sends a CreateItem XML/HTTP request to the Exchange Web Services service using the Exchange Web Services API to create a test item in a mailbox or public folder. When an access denied error status message is present in the response, the Microsoft Remote Connectivity Analyzer generates the following error:
 
-"ErrorCreateItemAccessDenied, the Act As Account does not have permissions to create items in this folder."
+"ErrorCreateItemAccessDenied, the Act As Account doesn't have permissions to create items in this folder."
 
 The Microsoft Remote Connectivity Analyzer uses the [CreateItem Operation](https://go.microsoft.com/fwlink/?linkid=161972) of Exchange Web Services to create a mail message in a mailbox or public folder to test whether the account specified has permissions to write to the specified folder.
 
@@ -26,7 +26,7 @@ The "Act As Account" is the account used by Exchange to authorize the execution 
 
 ## For More Information
 
-To resolve this issue, the Act As account must have permission to create items in the folder specified. To make sure the Act As account has the appropriate permissions, do the following:
+To resolve this issue, the Act As account must have permission to create items in the folder specified. To make sure the Act As account has the appropriate permissions, perform the following steps:
 
 1.  Grant the Act As account full mailbox permissions to the folder's mailbox via the [Add-MailboxPermission](https://go.microsoft.com/fwlink/?linkid=76497) command. Or, see [How to Allow Mailbox Access](https://go.microsoft.com/fwlink/?linkid=76535).
 

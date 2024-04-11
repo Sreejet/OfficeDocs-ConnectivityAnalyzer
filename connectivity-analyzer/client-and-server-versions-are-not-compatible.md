@@ -16,13 +16,13 @@ ms.date: 12/20/2023
 
 _**Topic Last Modified:** 2011-02-10_
 
-The Microsoft Remote Connectivity Analyzer attempts to connect to the Exchange Server via RCP over HTTP (Outlook Anywhere). If the version of the Outlook client attempting the connection is either not compatible or not allowed by the Exchange Server, then the following error can be displayed.
+The Microsoft Remote Connectivity Analyzer attempts to connect to the Exchange Server via Remote Procedure Call (RPC) over HTTP (Outlook Anywhere). If the version of the Outlook client attempting the connection is either not compatible or not allowed by the Exchange Server, then the following error can be displayed.
 
 "The client and server versions are not compatible. The client protocol version is older than that required by the server."
 
 ## For More Information
 
-Theoretically, you shouldn't encounter this error using the Microsoft Remote Connectivity Analyzer. Microsoft Remote Connectivity Analyzer emulates a client-side connection based on version 12.0.4228.0. If you do receive this error, then it could be possible that you modified the following value in the registry of your Exchange server and changed it to a value higher than 12.0.4228.0. If this was intentional, then you can encounter this error when using Microsoft Remote Connectivity Analyzer and any Outlook clients with a lower protocol version.
+Theoretically, you shouldn't encounter this error using the Microsoft Remote Connectivity Analyzer. Microsoft Remote Connectivity Analyzer emulates a client-side connection based on version 12.0.4228.0. If you do receive this error, then it could be possible that you modified the following value in the registry of your Exchange server and changed it to a value higher than 12.0.4228.0. If this process was intentional, then you can encounter this error when using Microsoft Remote Connectivity Analyzer and any Outlook clients with a lower protocol version.
 
 HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\MSExchangeIS\\ParametersSystem
 

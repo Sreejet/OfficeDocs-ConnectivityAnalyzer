@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'Microsoft Remote Connectivity Analyzer message: Expected service banner was not received when connecting'
+description: 'Microsoft Remote Connectivity Analyzer message: Expected service banner was not received when connecting'.
 ms.date: 12/20/2023
 ---
 

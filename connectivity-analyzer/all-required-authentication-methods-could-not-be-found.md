@@ -16,11 +16,11 @@ ms.date: 12/20/2023
 
 _**Topic Last Modified:** 2009-11-18_
 
-The Microsoft Remote Connectivity Analyzer sends an HTTP request to test the authentication methods of the specified service. If a 401 Unauthorized Response is received, then the Microsoft Remote Connectivity Analyzer tool expects certain WWW-Authenticate headers in the response. Certain services such as Exchange ActiveSync and Outlook Anywhere (RPC over HTTP) don't negotiate an authentication method with the remote server. These clients have a pre-defined authentication method that is sent with each request. If this authentication method isn't enabled on the remote server, then the Microsoft Remote Connectivity Analyzer generates the following error:
+The Microsoft Remote Connectivity Analyzer sends an HTTP request to test the authentication methods of the specified service. If a 401 Unauthorized Response is received, then the Microsoft Remote Connectivity Analyzer tool expects certain WWW-Authenticate headers in the response. Certain services such as Exchange ActiveSync and Outlook Anywhere (Remote Procedure Call (RPC) over HTTP) don't negotiate an authentication method with the remote server. These clients have a predefined authentication method that is sent with each request. If this authentication method isn't enabled on the remote server, then the Microsoft Remote Connectivity Analyzer generates the following error:
 
 "All Required Authentication Methods could not be found."
 
-If the pre-defined authentication method isn't enabled on the remote server, then users can experience the following issues:
+If the predefined authentication method isn't enabled on the remote server, then users can experience the following issues:
 
   - Mobile device users connecting using Exchange ActiveSync are unable to successfully connect.
 

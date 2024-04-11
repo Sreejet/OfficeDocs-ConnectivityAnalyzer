@@ -26,14 +26,14 @@ This error prevents users from being able to successfully connect to the specifi
 
 ## For More Information
 
-The primary reason this error is reported is when testing Exchange ActiveSync and Integrated Windows Authentication is advertised by the server. Integrated Windows Authentication isn't a supported Authentication method for Exchange ActiveSync and can cause Windows Mobile devices previous to Windows Mobile 6.0 to fail to connect.
+This error is primarily reported when testing Exchange ActiveSync and Integrated Windows Authentication is advertised by the server. Integrated Windows Authentication isn't a supported Authentication method for Exchange ActiveSync and can cause Windows Mobile devices previous to Windows Mobile 6.0 to fail to connect.
 
 > [!NOTE]
 > If you are using ISA Server to perform pre-authentication, Integrated Authentication may be enabled on the Web Listener. If you do not plan to support devices older than Windows Mobile 6.0 (or if you are not experiencing problems), then you can ignore this error.
 
 **To correct this error**
 
-1.  Confirm that the proper authentication methods are selected for the virtual directories in IIS.
+1.  Confirm that the proper authentication methods are selected for the virtual directories in Internet Information Services (IIS).
 
 2.  To see a list of the default authentication methods for Exchange Server 2007 applications and services, see [Default settings for Exchange-related virtual directories in Exchange Server 2007](https://go.microsoft.com/fwlink/?linkid=161402).
 
@@ -43,4 +43,4 @@ The primary reason this error is reported is when testing Exchange ActiveSync an
 
 5.  For information about configuring authentication for Web applications on Exchange Server 2003 and Exchange 2000 Server, see [Front-End and Back-End Server Topology Guide for Microsoft Exchange Server 2003 and Exchange 2000 Server](https://go.microsoft.com/fwlink/?linkid=161404).
 
-The Microsoft Remote Connectivity Analyzer has limited documentation at this time. To improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Use the Community Content section to post more reasons why you failed at this point. If you need technical assistance, create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).
+The Microsoft Remote Connectivity Analyzer lacks sufficient documentation currently. To improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Use the Community Content section to post more reasons why you failed at this point. If you need technical assistance, create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).

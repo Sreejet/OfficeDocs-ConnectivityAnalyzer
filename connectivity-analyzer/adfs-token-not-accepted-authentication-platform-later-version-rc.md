@@ -1,5 +1,5 @@
 ---
-title: ADFS token not accepted by Authentication Platform (for later version of RCA)
+title: Active Directory Federation Services (ADFS) token not accepted by Authentication Platform (for later version of RCA)
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
@@ -22,6 +22,6 @@ The Remote Connectivity Analyzer displays a warning when the authorization fails
 
 ## More Information
 
-For more information about how to troubleshoot this issue, see Microsoft Knowledge Base article 2521057, [How to reestablish trust with the Microsoft Online Services ID service after the AD FS 2.0 server stops responding](https://support.microsoft.com/kb/2521057).
+For more information about how to troubleshoot this issue, see Microsoft Knowledge Base article 2521057, [How to reestablish trust with the Microsoft Online Services ID service after the AD FS 2.0 server stops responding](/microsoft-365/troubleshoot/active-directory/update-federated-domain-office-365).
 
 For help with upgrading your current Exchange 2010 environment, see [Exchange Server Deployment Assistant](https://technet.microsoft.com/exdeploy2010/default.aspx).

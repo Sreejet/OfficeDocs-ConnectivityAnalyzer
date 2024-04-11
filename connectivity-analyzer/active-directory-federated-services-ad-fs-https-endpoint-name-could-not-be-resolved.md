@@ -1,5 +1,5 @@
 ---
-title: Active Directory Federated Services (AD FS) HTTPS endpoint name could not be resolved
+title: Active Directory Federated Services (AD FS) HTTPS endpoint name couldn't be resolved
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Remote Connectivity Analyzer returns the following warning if the DNS entry cannot be found for the STS endpoint: The host name could not be resolved in DNS.'
+description: The Remote Connectivity Analyzer returns 'The host name could not be resolved in DNS' warning if the DNS entry can't be found for the STS endpoint.
 ms.date: 12/20/2023
 ---
 
@@ -38,4 +38,4 @@ This message might indicate either of the following scenarios:
 
 For information about how to troubleshoot DNS, see [Troubleshooting DNS](https://go.microsoft.com/fwlink/?linkid=63003).
 
-Sometimes, you might have to verify the URL that is used for the AD FS endpoint for Office 365 identity federation. For a procedure to determine the value to which the endpoint is currently set, see the “More Information” section of [Internet Explorer cannot display the Microsoft Online Portal webpage when a federated user tries to sign in](https://support.microsoft.com/kb/2419389).
+Sometimes, you might have to verify the URL that is used for the AD FS endpoint for Office 365 identity federation. For a procedure to determine the value to which the endpoint is currently set, see the 'More Information' section of [Internet Explorer cannot display the Microsoft Online Portal webpage when a federated user tries to sign in](https://support.microsoft.com/kb/2419389).
