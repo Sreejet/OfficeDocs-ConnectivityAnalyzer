@@ -1,5 +1,5 @@
 ---
-title: An HTTP 403.4 was Returned Because SSL was Required on the Virtual Directory
+title: An HTTP 403.4 was Returned Because Secure Sockets Layer (SSL) was Required on the Virtual Directory
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Error: An HTTP 403.4 was returned because SSL was required on the virtual directory.'
-ms.date: 05/08/2020
+ms.date: 12/20/2023
 ---
 
 # An HTTP 403.4 was Returned Because SSL was Required on the Virtual Directory
 
 _**Topic Last Modified:** 2011-01-21_
 
-The Microsoft Remote Connectivity Analyzer attempts to connect and authenticate to the Web site or virtual directory using the credentials and protocol supplied by the user. If the connection is attempted using a non-secure protocol, then the test may fail and return the following error:
+The Microsoft Remote Connectivity Analyzer attempts to connect and authenticate to the Web site or virtual directory using the credentials and protocol supplied by the user. If the connection is attempted using a non-secure protocol, then the test can fail and return the following error:
 
 "An HTTP 403.4 was returned because SSL was required on the virtual directory."
 
@@ -23,23 +23,23 @@ This issue occurs whenever a connection is attempted using a non-secure protocol
 
 ## For More Information
 
-To correct this error, do one of the following:
+To correct this error, perform one of the following steps:
 
-  - Use the HTTPS protocol to visit the Web site. That is, make sure that the URL begins with "https://".
+  - Use the HTTPS protocol to visit the Web site. That is, make sure that the URL begins with "https://"
 
-  - In the SSL settings for the Web site, clear the Require SSL check box. To do this, perform the following steps.
+  - In the SSL settings for the Web site, clear the Require SSL check box. To do this, perform the following steps:
 
 For Windows 2003:
 
-1.  Click **Start**, click **Run**, type Inetmgr, and then click **OK**.
+1.  Select **Start**, select **Run**, type Inetmgr, and then select **OK**.
 
 2.  In Internet Information Services (IIS) Manager, expand Computer\_Name , expand Web Sites, and then right-click the Web site that you want to remove the SSL feature from.
 
-3.  Click **Properties**.
+3.  Select **Properties**.
 
-4.  Click the Security tab.
+4.  Select the Security tab.
 
-5.  Under Secure Communications, click the **Edit** button.
+5.  Under Secure Communications, select the **Edit** button.
 
 6.  Clear the following checkboxes:
     
@@ -47,15 +47,15 @@ For Windows 2003:
     
       - Require 128-bit Encryption
 
-7.  Click OK.
+7.  Select OK.
 
 For Windows 2008:
 
-1.  Click **Start**, click **Run**, type Inetmgr, and then click **OK**.
+1.  Select **Start**, select **Run**, type Inetmgr, and then select **OK**.
 
-2.  In Internet Information Services (IIS) Manager, expand Computer\_Name , expand Sites, and then click the Web site that you want to remove the SSL feature from.
+2.  In Internet Information Services (IIS) Manager, expand Computer\_Name , expand Sites, and then select the Web site that you want to remove the SSL feature from.
 
-3.  In the Middle Window pane, double click on SSL Settings.
+3.  In the Middle Window pane, select SSL Settings.
 
 4.  Clear the following checkboxes:
     
@@ -63,6 +63,6 @@ For Windows 2008:
     
       - Require 128-bit Encryption
 
-5.  Click **Apply** in the right pane.
+5.  Select **Apply** in the right pane.
 
-The Microsoft Remote Connectivity Analyzer has limited documentation at this time. In an effort to improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Please use the Community Content section below to post additional reasons why you failed at this point.  If you need technical assistance, please create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).
+The Microsoft Remote Connectivity Analyzer has limited documentation currently. To improve the documentation for each of the errors you might receive, we would like to solicit additional information from the community. Use the Community Content section to post more reasons why you failed at this point.  If you need technical assistance, create a post in the appropriate [Exchange TechNet forum](https://go.microsoft.com/fwlink/?linkid=73420) or contact [support](https://go.microsoft.com/fwlink/?linkid=8158).

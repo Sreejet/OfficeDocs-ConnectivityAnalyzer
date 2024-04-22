@@ -7,17 +7,17 @@ audience: ITPro
 ms.topic: article 
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
-description: 'The Remote Connectivity Analyzer displays a certificate trust warning when the certificate that is used for SSL has expired. This indicates that the certificate is not valid.'
-ms.date: 05/08/2020
+description: "The Remote Connectivity Analyzer displays a certificate trust warning when the certificate that is used for SSL has expired. This indicates that the certificate isn't valid."
+ms.date: 12/20/2023
 ---
 
 # ADFS SSL Certificate Expired
 
 _**Topic Last Modified:** 2011-06-13_
 
-The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud to perform a realm discovery. When that process is finished, the Authentication Platform passes to the requesting client the ADFS endpoint URL that the client requires for authentication. The endpoint will be a Secure Sockets Layer (SSL) connection, which will have a certificate in place. The tool evaluates the fully qualified domain name (FQDN) that was assigned to the certificate (for example, STS.Contoso.com).
+The Microsoft Remote Connectivity Analyzer tool queries the Authentication Platform in the cloud to perform a realm discovery. When that process is finished, the Authentication Platform passes to the requesting client the ADFS endpoint URL that the client requires for authentication. The endpoint is a Secure Sockets Layer (SSL) connection, which has a certificate in place. The tool evaluates the fully qualified domain name (FQDN) that was assigned to the certificate (for example, STS.Contoso.com).
 
-The Remote Connectivity Analyzer displays a certificate trust warning when the certificate that is used for SSL has expired. This indicates that the certificate is not valid and that users will not be able to authenticate correctly to their Office 365 resources. If this issue occurs, the passive (Internet Explorer) access to the Office 365 services fails to connect, and it generates a similar warning when the user tries to access a web page.
+The Remote Connectivity Analyzer displays a certificate trust warning when the certificate that is used for SSL has expired. This indicates that the certificate isn't valid and that users won't be able to authenticate correctly to their Office 365 resources. If this issue occurs, the passive (Internet Explorer) access to the Office 365 services fails to connect, and it generates a similar warning when the user tries to access a web page.
 
 ## More Information
 
@@ -25,4 +25,4 @@ For information about how to troubleshoot this issue, see Microsoft Knowledge Ba
 
 For more information planning for identity federation, see [Prepare for single sign-on](https://onlinehelp.microsoft.com/office365-enterprises/ff652540.aspx).
 
-For help to upgrade your current Exchange 2010 environment, see [Exchange Server Deployment Assistant](https://technet.microsoft.com/exdeploy2010/default.aspx).
+For help with upgrading your current Exchange 2010 environment, see [Exchange Server Deployment Assistant](https://technet.microsoft.com/exdeploy2010/default.aspx).
