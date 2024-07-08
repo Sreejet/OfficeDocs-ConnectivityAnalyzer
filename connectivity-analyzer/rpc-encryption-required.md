@@ -158,5 +158,3 @@ For more information about Outlook 2003 connectivity with Exchange Server 2010, 
 
 For information about the Set-MailboxServer cmdlet and MAPIEncryptionRequired attribute, see [Set-MailboxServer](https://go.microsoft.com/fwlink/?linkid=161822).
 
-For more information about deploying Exchange 2010 with Outlook 2003 clients, see [Concern: Is Having Outlook 2003 Clients Going to Prevent Me from Deploying Exchange 2010?](https://social.technet.microsoft.com/wiki/contents/articles/concern-is-having-outlook-2003-clients-going-to-prevent-me-from-deploying-exchange-2010.aspx).
-
