@@ -3,8 +3,8 @@ title: Microsoft Remote Connectivity Analyzer Tool
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
-audience: ITPro 
-ms.topic: article 
+audience: ITPro
+ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: Description and IP address ranges of the Microsoft Remote Connectivity Analyzer (RCA) tool
@@ -17,7 +17,7 @@ This content is intended to address specific issues called out by the Microsoft 
 
 The Microsoft Remote Connectivity Analyzer tool is available at [Microsoft Remote Connectivity Analyzer](https://go.microsoft.com/fwlink/?linkid=154308). The tool is web-based, and is designed to help IT Administrators troubleshoot connectivity issues that affect their Microsoft 365, Teams, and Exchange Server deployments. The tool simulates several client logon and mail flow scenarios. When a test fails, many of the errors have troubleshooting tips to assist the IT Administrator to correct the problem.
 
-The Microsoft Remote Connectivity Analyzer tool uses a specific set of IP addresses to perform these communications, those IP addresses and all of the URL and IP address information for Office 365 can be found in this documentation: [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/?linkid=532912). The Microsoft Remote Connectivity Analyzer tool ranges are part of the Microsoft 365 Common and Office Online section, specifically ID 46 in the documentation. While not mentioned explicitly, if you are testing SMTP, POP or IMAP you will also need to allow access to those relevant ports from the same IP address ranges. 
+The Microsoft Remote Connectivity Analyzer tool uses a specific set of IP addresses to perform these communications, those IP addresses and all of the URL and IP address information for Office 365 can be found in this documentation: [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/?linkid=532912). The Microsoft Remote Connectivity Analyzer tool ranges are part of the Microsoft 365 Common and Office Online section, specifically ID 46 in the documentation. While not mentioned explicitly, if you are testing SMTP, POP or IMAP you will also need to allow access to those relevant ports from the same IP address ranges.
 
 > [!NOTE]
 > At this time the Microsoft Remote Connectivity Analyzer tool doesn't support Microsoft 365 Government environments (GCC or GCC High).
@@ -39,9 +39,9 @@ Remote Connectivity Analyzer is a free connectivity test platform for cloud-base
 - [Office 365](https://testconnectivity.microsoft.com/tests/o365)
 
 - [Exchange Server](https://testconnectivity.microsoft.com/tests/exchange)
-  
+
 - [Microsoft Teams](https://testconnectivity.microsoft.com/tests/teams)
-  
+
 - [Skype for Business Server](https://testconnectivity.microsoft.com/tests/skype)
 
 
