@@ -3,8 +3,8 @@ title: Access is Denied Error was Thrown by the RPC Runtime
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
-audience: ITPro 
-ms.topic: article 
+audience: ITPro
+ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'Access is denied error (0x5) was thrown by the RPC runtime.'
