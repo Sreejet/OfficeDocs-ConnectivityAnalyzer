@@ -3,8 +3,8 @@ title: The Act As Account Does Not Have Permissions to Create Items in this Fold
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
-audience: ITPro 
-ms.topic: article 
+audience: ITPro
+ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: "ErrorCreateItemAccessDenied, the Act As Account doesn't have permissions to create items in this folder."
