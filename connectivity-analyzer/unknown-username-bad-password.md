@@ -3,8 +3,8 @@ title: Unknown Username or bad password
 author: bradhugh
 ms.author: bradhugh
 manager: tpolitis
-audience: ITPro 
-ms.topic: article 
+audience: ITPro
+ms.topic: article
 ms.service: remote-connect-tool
 ms.localizationpriority: medium
 description: 'The Remote Connectivity Analyzer displays the following warning message if the user is not authenticated correctly: "The Security Token Service indicated that the authentication failed. Check the username and password and try again."'
