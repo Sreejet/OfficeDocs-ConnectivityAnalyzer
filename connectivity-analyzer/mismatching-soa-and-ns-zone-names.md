@@ -7,7 +7,7 @@ manager: pschiek
 audience: ITPro 
 ms.topic: article 
 ms.service: remote-connect-tool
-localization_priority: High
+ms.localizationpriority: High
 ms.date: 01/25/2021
 ---
 
